@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact List</title>
+ <link rel="stylesheet" type="text/css" href="/bower_components/semantic-ui/dist/semantic.css">
+</head>
+<body>
+  <h2 class="blue ui center aligned icon header">
+  <i class="circular users icon"></i>
+  Enter Contact Information
+</h2>
+<div class="ui blue inverted menu">
+  <a class="active item">
+    <i class="home icon"></i><a href="#/home" class="home"> Home
+  </a>
+  <a class="item">
+    <i class="smile icon"></i><a href="#/about" class="about"> About
+  </a>
+  <a class="item">
+    <i class="user icon"></i><a href="#/list" class="list"> list
+  </a>
+</div>
+<div class="green ui attached message">
+  <div class="header">
+    Welcome Byron!
+  </div>
+  <p>Create / Edit / Remove - Your Contacts</p>
+</div>
+<form class="ui form attached fluid segment">
+  <div class="two fields">
+    <div class="field">
+      <label>name</label>
+      <input type="text" placeholder="name">
+    </div>
+    <div class="field">
+      <label>city</label>
+      <input type="text" placeholder="city">
+    </div>
+<div class="ui form">
+  <div class="inline fields">
+    <div class="field">
+      <label>phone</label>
+      <input type="text" placeholder="(xxx)">
+    </div>
+    <div class="field">
+      <input type="text" placeholder="xxx">
+    </div>
+    <div class="field">
+      <input type="text" placeholder="xxxx">
+    </div>
+  </div>
+</div>
+<div class="field">
+      <label>email</label>
+      <input type="text" placeholder="email">
+    </div>
+    <div class="field">
+      <label>photo</label>
+      <input type="text" placeholder="image_url">
+    </div>
+    <div class="two fields">
+    <div class="field">
+      <label>choose</label>
+      <select class="ui search dropdown">
+        <option value="">category</option>
+        <option value="name">friends</option>
+        <option value="name">CHEERS pub</option>
+      </select>
+    </div>
+        <div class="field">
+      <label>add</label>
+      <input type="text" placeholder="category">
+    </div>
+  </div>
+</div>
+</form>
+<div class="ui bottom attached warning message">
+  <i class="edit icon"></i>
+  Now <a href="#/list" class="list">submit</a> the contact information.
+</div>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/bower_components/mustache/mustache.js"></script>
+  <script type="text/javascript" src="/app.js"></script>
+  <script src="./public/app.js"></script>
+    </body>
+    </html>
